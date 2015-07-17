@@ -3,7 +3,7 @@ web:
   ports:
     - "webportout:2368"
   volumes:
-    - upspace:/usr/src/ghost/content
+    - upspace:/var/lib/ghost
     - ./config.js:/var/lib/ghost/config.js
   environment:
     NODE_ENV: production
