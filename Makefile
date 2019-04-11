@@ -1,5 +1,5 @@
 NAME = "septian.wibisono.web.id"
-MYSQLPASS = "Activat3d."
+MYSQLPASS = "dengdong"
 DISKSIZE = "10M"
 DBDATA = $(NAME)"-mysql-data"
 
